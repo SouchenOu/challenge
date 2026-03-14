@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --color-primary: #22c55e;
+  --color-primary-dark: #16a34a;
+  --color-dark-green: #0d2b1a;
+  --color-red-cta: #b91c1c;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  max-width: 100%;
+}
